@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-20T00:29:14.580658",
+    "total_repositories": 21,
+    "categories": {
+      "TypeScript": 6,
+      "Python": 5,
+      "AI/ML": 10
+    }
+  },
+  "repositories": [
+    {
+      "name": "advanced-ts",
+      "owner": "hatefrad",
+      "url": "https://github.com/hatefrad/advanced-ts",
+      "category": "TypeScript",
+      "level": "Advanced",
+      "description": "Focused on advanced TypeScript techniques: mapped/conditional/infer/template literal types, type system performance, deep dive utility types, React strict typing, and production patterns.",
+      "key_topics": [
+        "Advanced Types",
+        "Type System",
+        "Design Patterns",
+        "React",
+        "Backend"
+      ],
+      "best_for": "Production-grade TypeScript mastery",
+      "stars": 8500,
+      "language": "TypeScript"
+    },
+    {
+      "name": "type-challenges",
+      "owner": "type-challenges",
+      "url": "https://github.com/type-challenges/type-challenges",
+      "category": "TypeScript",
+      "level": "Advanced",
+      "description": "Hundreds of advanced TypeScript typing challenges to master the type system. Learn to create powerful utility types, mapped/conditional/distributed types.",
+      "key_topics": [
+        "Type Challenges",
+        "Utility Types",
+        "Advanced Types",
+        "Type Inference"
+      ],
+      "best_for": "Expert-level type system training",
+      "stars": 44000,
+      "language": "TypeScript"
+    },
+    {
+      "name": "design-patterns-typescript",
+      "owner": "torokmark",
+      "url": "https://github.com/torokmark/design-patterns-typescript",
+      "category": "TypeScript",
+      "level": "Advanced",
+      "description": "Classic design patterns (creational, structural, behavioral) coded in idiomatic TypeScript with clear implementations and explanations.",
+      "key_topics": [
+        "Design Patterns",
+        "Architecture",
+        "OOP",
+        "Best Practices"
+      ],
+      "best_for": "Learning production architecture patterns",
+      "stars": 4200,
+      "language": "TypeScript"
+    },
+    {
+      "name": "Learn-Typescript",
+      "owner": "pranav89624",
+      "url": "https://github.com/pranav89624/Learn-Typescript",
+      "category": "TypeScript",
+      "level": "Intermediate-Advanced",
+      "description": "Hands-on guide covering core types, advanced patterns, React, and Node.js with practical exercises and progressive difficulty.",
+      "key_topics": [
+        "Core Types",
+        "Advanced Patterns",
+        "React",
+        "Node.js",
+        "Full Stack"
+      ],
+      "best_for": "Full stack TypeScript development",
+      "stars": 2800,
+      "language": "TypeScript"
+    },
+    {
+      "name": "typescript-book",
+      "owner": "gibbok",
+      "url": "https://github.com/gibbok/typescript-book",
+      "category": "TypeScript",
+      "level": "Intermediate-Advanced",
+      "description": "Concise, open-source TypeScript guide covering effective advanced usage patterns and real-world best practices in production.",
+      "key_topics": [
+        "Best Practices",
+        "Production Code",
+        "Advanced Patterns",
+        "Real-World Applications"
+      ],
+      "best_for": "Practical TypeScript for production",
+      "stars": 6500,
+      "language": "TypeScript"
+    },
+    {
+      "name": "developer-roadmap",
+      "owner": "kamranahmedse",
+      "url": "https://github.com/kamranahmedse/developer-roadmap",
+      "category": "TypeScript",
+      "level": "Intermediate-Advanced",
+      "description": "Detailed TypeScript learning roadmap with links to advanced topics, design patterns, and ecosystem libraries.",
+      "key_topics": [
+        "Learning Roadmap",
+        "Architecture",
+        "Design Patterns",
+        "Ecosystem"
+      ],
+      "best_for": "Structured TypeScript learning path",
+      "stars": 292000,
+      "language": "Mixed"
+    },
+    {
+      "name": "Python",
+      "owner": "TheAlgorithms",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "category": "Python",
+      "level": "Intermediate-Advanced",
+      "description": "Comprehensive algorithms and data structures repository. Hundreds of well-organized, readable implementations including searching, sorting, dynamic programming, and graphs.",
+      "key_topics": [
+        "Algorithms",
+        "Data Structures",
+        "Graph Theory",
+        "Dynamic Programming",
+        "Sorting"
+      ],
+      "best_for": "Algorithm mastery and technical interviews",
+      "stars": 196000,
+      "language": "Python"
+    },
+    {
+      "name": "data-structures-and-algorithms-in-python",
+      "owner": "Deepali-Srivastava",
+      "url": "https://github.com/Deepali-Srivastava/data-structures-and-algorithms-in-python",
+      "category": "Python",
+      "level": "Intermediate-Advanced",
+      "description": "Clear code and explanations for data structures and algorithms from basics to advanced topics like trees, graphs, and dynamic programming.",
+      "key_topics": [
+        "Data Structures",
+        "Algorithms",
+        "Trees",
+        "Graphs",
+        "Dynamic Programming"
+      ],
+      "best_for": "Step-by-step DSA learning",
+      "stars": 2200,
+      "language": "Python"
+    },
+    {
+      "name": "Strivers-A2Z-DSA-Sheet",
+      "owner": "striver79",
+      "url": "https://github.com/striver79/Strivers-A2Z-DSA-Sheet",
+      "category": "Python",
+      "level": "Intermediate-Advanced",
+      "description": "Based on Striver's famous DSA roadmap. Huge collection of questions, patterns, and explanations in Python for beginner to advanced levels.",
+      "key_topics": [
+        "DSA Problems",
+        "Patterns",
+        "Interview Prep",
+        "Comprehensive Coverage"
+      ],
+      "best_for": "Interview-focused algorithm practice",
+      "stars": 32000,
+      "language": "Python"
+    },
+    {
+      "name": "Data-Structure-and-Algorithms",
+      "owner": "pkprajapati7402",
+      "url": "https://github.com/pkprajapati7402/Data-Structure-and-Algorithms",
+      "category": "Python",
+      "level": "Intermediate-Advanced",
+      "description": "Well-documented data structures, algorithms, and solutions to popular DSA problems from CodeChef and Love Babbar DSA sheets.",
+      "key_topics": [
+        "DSA",
+        "Competitive Programming",
+        "Problem Solving",
+        "Multi-Language"
+      ],
+      "best_for": "Competitive programming preparation",
+      "stars": 1500,
+      "language": "Python"
+    },
+    {
+      "name": "project-based-learning",
+      "owner": "practical-tutorials",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "category": "Python",
+      "level": "Intermediate-Advanced",
+      "description": "Curated list of project-based tutorials using advanced algorithms and data structures in real-world applications.",
+      "key_topics": [
+        "Project-Based Learning",
+        "Real-World Applications",
+        "Practical Skills"
+      ],
+      "best_for": "Applying DSA knowledge to real projects",
+      "stars": 145000,
+      "language": "Mixed"
+    },
+    {
+      "name": "tensorflow",
+      "owner": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "Official TensorFlow repository with comprehensive tutorials, models, and the full TensorFlow ecosystem for deep learning.",
+      "key_topics": [
+        "Deep Learning",
+        "Neural Networks",
+        "TensorFlow Ecosystem",
+        "Production ML"
+      ],
+      "best_for": "Advanced deep learning and production deployment",
+      "stars": 185000,
+      "language": "Python"
+    },
+    {
+      "name": "pytorch",
+      "owner": "pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "Leading deep learning research framework with excellent documentation and sample code for custom model development.",
+      "key_topics": [
+        "Deep Learning",
+        "Neural Networks",
+        "PyTorch",
+        "Research"
+      ],
+      "best_for": "Advanced deep learning research and custom models",
+      "stars": 84000,
+      "language": "Python"
+    },
+    {
+      "name": "transformers",
+      "owner": "huggingface",
+      "url": "https://github.com/huggingface/transformers",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "State-of-the-art models for NLP and beyond. Provides pre-trained models, fine-tuning capabilities, and extensive documentation.",
+      "key_topics": [
+        "NLP",
+        "Transformers",
+        "Pre-trained Models",
+        "Transfer Learning"
+      ],
+      "best_for": "Advanced NLP and transformer-based models",
+      "stars": 135000,
+      "language": "Python"
+    },
+    {
+      "name": "fastai",
+      "owner": "fastai",
+      "url": "https://github.com/fastai/fastai",
+      "category": "AI/ML",
+      "level": "Intermediate-Advanced",
+      "description": "High-level deep learning library on top of PyTorch. Excellent for building advanced models with minimal code.",
+      "key_topics": [
+        "Deep Learning",
+        "Computer Vision",
+        "NLP",
+        "Transfer Learning"
+      ],
+      "best_for": "Rapid deep learning model development",
+      "stars": 26000,
+      "language": "Python"
+    },
+    {
+      "name": "scikit-learn",
+      "owner": "scikit-learn",
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "category": "AI/ML",
+      "level": "Intermediate",
+      "description": "Robust machine learning library in Python. Good for transitioning from classical ML to deeper models with production-quality code.",
+      "key_topics": [
+        "Machine Learning",
+        "Classification",
+        "Regression",
+        "Clustering"
+      ],
+      "best_for": "Classical ML and scikit-learn best practices",
+      "stars": 60000,
+      "language": "Python"
+    },
+    {
+      "name": "spinningup",
+      "owner": "openai",
+      "url": "https://github.com/openai/spinningup",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "OpenAI's educational resource for deep reinforcement learning, including theory and practical coding exercises.",
+      "key_topics": [
+        "Reinforcement Learning",
+        "Deep RL",
+        "Policy Gradient",
+        "Q-Learning"
+      ],
+      "best_for": "Mastering deep reinforcement learning",
+      "stars": 10000,
+      "language": "Python"
+    },
+    {
+      "name": "annotated_deep_learning_paper_implementations",
+      "owner": "labmlai",
+      "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "Code implementations of cutting-edge deep learning research papers with detailed annotations for understanding.",
+      "key_topics": [
+        "Deep Learning Research",
+        "Advanced Techniques",
+        "Paper Implementations",
+        "Annotated Code"
+      ],
+      "best_for": "Understanding latest ML research",
+      "stars": 21000,
+      "language": "Python"
+    },
+    {
+      "name": "homemade-machine-learning",
+      "owner": "trekhleb",
+      "url": "https://github.com/trekhleb/homemade-machine-learning",
+      "category": "AI/ML",
+      "level": "Intermediate",
+      "description": "Build ML algorithms from scratch to deepen understanding of how they work internally.",
+      "key_topics": [
+        "ML from Scratch",
+        "Algorithm Understanding",
+        "Educational"
+      ],
+      "best_for": "Deep understanding of ML fundamentals",
+      "stars": 24000,
+      "language": "Python"
+    },
+    {
+      "name": "awesome-machine-learning",
+      "owner": "josephmisiti",
+      "url": "https://github.com/josephmisiti/awesome-machine-learning",
+      "category": "AI/ML",
+      "level": "Intermediate-Advanced",
+      "description": "Curated list of ML libraries, frameworks, tools, and resources categorized by language and application.",
+      "key_topics": [
+        "ML Tools",
+        "Libraries",
+        "Frameworks",
+        "Resources"
+      ],
+      "best_for": "ML stack selection and ecosystem overview",
+      "stars": 65000,
+      "language": "Mixed"
+    },
+    {
+      "name": "awesome-deep-learning",
+      "owner": "ChristosChristofidis",
+      "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+      "category": "AI/ML",
+      "level": "Advanced",
+      "description": "Comprehensive collection of deep learning frameworks, tutorials, books, and cutting-edge research.",
+      "key_topics": [
+        "Deep Learning",
+        "Frameworks",
+        "Research",
+        "Learning Resources"
+      ],
+      "best_for": "Comprehensive deep learning resource guide",
+      "stars": 22000,
+      "language": "Mixed"
+    }
+  ]
+}
