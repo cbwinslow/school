@@ -1,0 +1,119 @@
+# 📋 Project Rules & Conventions
+
+## Code Style
+
+### Python
+- Follow PEP 8 style guide
+- Use type hints for all function parameters and returns
+- Use docstrings for all classes and public methods
+- Maximum line length: 100 characters
+- Use 4 spaces for indentation
+
+### Naming Conventions
+- Classes: PascalCase (e.g., `CurriculumGenerator`)
+- Functions/methods: snake_case (e.g., `generate_lesson`)
+- Constants: UPPER_SNAKE_CASE (e.g., `DEFAULT_OUTPUT_DIR`)
+- Private methods: prefix with underscore (e.g., `_generate_id`)
+
+## File Organization
+
+### Script Headers
+All Python scripts must include:
+```python
+#!/usr/bin/env python3
+"""
+================================================================================
+Name: [Author]
+Date: [Date]
+Script Name: [filename.py]
+Version: [X.Y.Z]
+Description: [Brief description]
+================================================================================
+"""
+```
+
+### Data Classes
+- Use `@dataclass` for data models
+- Include `to_dict()` method for serialization
+- Use `field(default_factory=list)` for mutable defaults
+
+## Agent Conventions
+
+### Skill Definition Format
+```yaml
+skill:
+  name: skill_name
+  description: "Clear description"
+  inputs:
+    - param_name: type
+  outputs:
+    - output_name: type
+  implementation: |
+    1. Step one
+    2. Step two
+```
+
+### Agent Communication
+- Use structured YAML for agent requests/responses
+- Include metadata (timestamp, agent_id, status)
+- Log all agent interactions
+
+## Output Standards
+
+### Generated Files
+- JSON: For API/agent consumption
+- Markdown: For human readability
+- CSV: For spreadsheet import
+
+### Directory Structure
+- `curriculum_output/`: Generated curriculum content
+- `repo_curriculum_output/`: Repository-based curriculum
+- `agents/`: Agent definitions
+- `skills/`: Skill definitions
+
+## Error Handling
+
+### Required Checks
+1. GitHub API rate limits
+2. Network connectivity
+3. File permissions
+4. Invalid input validation
+5. Missing dependencies
+
+### Error Messages
+- Be specific and actionable
+- Include remediation steps
+- Log errors for debugging
+
+## Testing
+
+### Test Coverage
+- Unit tests for all generators
+- Integration tests for agent workflows
+- Mock GitHub API for offline testing
+
+## Documentation
+
+### Required Documentation
+- README.md with quick start
+- PROJECT_SUMMARY.md with architecture
+- CONTEXT.md with full context
+- Inline code comments for complex logic
+
+## Version Control
+
+### Commit Messages
+- Use conventional commits: `feat:`, `fix:`, `docs:`, `refactor:`
+- Keep commits atomic and focused
+- Reference issues when applicable
+
+### Branch Strategy
+- `main`: Production-ready code
+- `develop`: Integration branch
+- `feature/*`: New features
+- `fix/*`: Bug fixes
+
+---
+
+**Rules Version**: 1.0  
+**Last Updated**: March 2026

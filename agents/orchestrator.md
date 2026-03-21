@@ -52,11 +52,13 @@ Processing:
   1. Check student level: intermediate
   2. Verify prerequisites: functions, closures
   3. Route to: curriculum-architect (for structure)
-  4. Curriculum-architect calls: lesson-generator (for content)
-  5. Lesson-generator calls: problem-creator (for exercises)
-  6. Assemble complete lesson package
+  4. Curriculum-architect calls: lesson-generator (for skeleton)
+  5. Lesson-generator calls: textbook-writer (for enriched content)
+  6. Textbook-writer enriches with narrative, diagrams, tutorials
+  7. Textbook-writer calls: problem-creator (for exercises)
+  8. Assemble complete lesson package
 
-Output: Complete lesson with theory, examples, and exercises
+Output: Complete lesson with theory, narrative, examples, tutorials, and exercises
 ```
 
 ### For Assessment

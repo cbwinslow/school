@@ -24,7 +24,7 @@ The Orchestrator calls the Curriculum Architect when:
 ## How It Works
 
 ```
-Topic Request → Define Scope → Create Objectives → Design Structure → Generate Outlines → Call Lesson Generator
+Topic Request → Define Scope → Create Objectives → Design Structure → Generate Outlines → Call Lesson Generator → Lesson Generator calls Textbook Writer → Textbook Writer calls Problem Creator
 ```
 
 ---

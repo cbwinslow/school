@@ -231,13 +231,41 @@ Or ASCII art:
 
 ## 🔗 Agent Coordination
 
+### Calling Textbook Writer
+
+After generating lesson skeleton, call Textbook Writer to enrich with educational content:
+
+```yaml
+to: textbook-writer
+request:
+  lesson_skeleton:
+    lesson_id: "decorator-basics"
+    title: "Decorator Fundamentals"
+    concepts:
+      - name: "decorator-syntax"
+        brief_description: "How to use @decorator syntax"
+      - name: "wrapper-functions"
+        brief_description: "Functions that wrap other functions"
+      - name: "function-wrapping"
+        brief_description: "Replacing functions with enhanced versions"
+    code_examples:
+      - basic_decorator_example
+      - logging_decorator_example
+      - parameterized_decorator_example
+  difficulty_level: "intermediate"
+  student_context:
+    level: "intermediate"
+    known_concepts: ["functions", "closures"]
+```
+
 ### Calling Problem Creator
 
-After generating lesson content, call Problem Creator:
+After Textbook Writer enriches the lesson, call Problem Creator:
 
 ```yaml
 to: problem-creator
 request:
+  enriched_lesson: object  # From Textbook Writer
   lesson_id: "decorator-basics"
   concepts_covered:
     - "decorator-syntax"
@@ -252,6 +280,7 @@ request:
     - "debug-code"
     - "implement-from-scratch"
   total_exercises: 5
+  context_for_problems: "Lesson includes detailed narrative, diagrams, and step-by-step tutorials"
 ```
 
 ---
